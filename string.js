@@ -73,7 +73,7 @@ var c = a.concat(' ' , b)
 
  */
 
-/*
+
 
 // String Length
 
@@ -92,7 +92,7 @@ console.log(length)
 
 console.log ( str.length )
 
- */
+ 
 
 
 
