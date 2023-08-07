@@ -1,4 +1,4 @@
-var arr = [1, 2, 3, 4, 5, 6, 7, 8]
+// var arr = [1, 2, 3, 4, 5, 6, 7, 8]
 
 // Insert 9 to index 3 
 // arr[3] = 9
@@ -28,9 +28,12 @@ var arr = [1, 2, 3, 4, 5, 6, 7, 8]
 // arr.splice(2, 1)
 
 
-console.log ( arr )
+var arr = [1, 2, 3, 4, 5, 6, 7, 8];
 
-
-
+console.log ( arr );
+arr.splice(4, 0, 99);
+console.log(arr);
+arr.splice(4, 1);
+console.log(arr);
 
 
